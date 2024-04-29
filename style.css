@@ -1,0 +1,61 @@
+/* ------------------ General ------------------ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: antiquewhite;
+    margin-left: 50px;
+    margin-left: 50px;
+    font-family: 'roboto2';
+}
+img{
+    width: 100%;
+}
+/* ---------------------------------------------- */
+/* -------------------Cabecera------------------- */
+header{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 50px 50px 50px 50px;
+    background-color: rgba(134, 133, 133, 0.3);
+}
+header .menu{
+    margin-left: auto;
+}
+header .logo img{
+    border-radius: 50%;
+    width: 150px;
+}
+header .menu nav{
+    flex: 75%;
+    padding: 10px;
+}
+header .menu nav a{
+    padding: 5px;
+    margin-right: 50px;
+    padding-right: 50px;
+    border-right: solid 2px black;
+    font-family: 'roboto2';
+    text-decoration: none;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+header .menu nav a:last-child {
+    margin-right: 0; 
+    border-right: none;
+}
+header .menu nav a:hover{
+    font-size: 2.3rem;
+    color: rgb(184, 106, 106);
+}
+@font-face{
+    font-family: 'roboto1';
+    src: url('fonts/Roboto-Italic.ttf');
+
+    font-family: 'roboto2';
+    src: url('fonts/Roboto-Bold.ttf');
+}
