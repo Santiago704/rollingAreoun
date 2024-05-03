@@ -1,0 +1,104 @@
+/* ------------------ General ------------------ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url(images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 50px;
+    margin-left: 50px;
+    font-family: 'roboto2';
+    filter: brightness(1);
+}
+img{
+    width: 100%;
+}
+/* ---------------------------------------------- */
+/* -------------------Cabecera------------------- */
+header{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 50px 80px 50px 80px;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+header .menu{
+    margin-left: auto;
+}
+header .logo img{
+    border-radius: 15%;
+    width: 150px;
+}
+header .menu nav{
+    flex: 75%;
+    padding: 10px;
+}
+header .menu nav a{
+    padding: 5px;
+    margin-right: 50px;
+    padding-right: 50px;
+    border-right: solid 2px #ea601f;
+    font-family: 'roboto2';
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ea601f;
+}
+header .menu nav a:last-child {
+    margin-right: 0; 
+    border-right: none;
+}
+header .menu nav a:hover{
+    transition: 0.35s;
+    font-size: 2.3rem;
+    color: grey;
+}
+/* --------------------------------------------- */
+/* ------------------Main----------------------- */
+.vid1{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    overflow: hidden;
+}
+.vid1 video{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* --------------------------------------------- */
+@font-face{
+    font-family: 'roboto1';
+    src: url('fonts/Roboto-Italic.ttf');
+}
+@font-face{
+    font-family: 'roboto2';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+
+@media screen and (max-width: 1300px) {
+    header {
+        flex-direction: column; 
+        
+    }
+    header .menu nav {
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    header .menu nav a {
+        text-align: center;
+        display: block;
+        margin: 0 auto; 
+        width: 100%;
+        border: none;
+        border-bottom: solid 2px #ea601f;
+    }
+}
