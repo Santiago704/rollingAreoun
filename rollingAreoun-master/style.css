@@ -86,7 +86,20 @@ header .menu nav a:hover{
 .texto1 p{
     font-size: 2rem;
 }
-
+/* ---------------------------------------------- */
+/* ----------------- Iconos -------------------- */
+.iconos{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px;
+}
+.iconos .ico1, .iconos .ico2, .iconos .ico3{
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+}
 /* --------------------------------------------- */
 @font-face{
     font-family: 'roboto1';
