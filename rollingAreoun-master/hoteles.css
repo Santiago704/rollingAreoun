@@ -28,12 +28,12 @@ video{
 /* ---------------------------------------------- */
 /* -------------------Cabecera------------------- */
 header{
-    display: flex;
-    width: 100%;
-    column-gap: 30px;
+   display: flex;
+    
     align-items: center;
-    padding: 20px;
+    padding: 8px;
     background-image: url(images/Planes&vistas/Cartagena-.jpeg);
+    /* background-color: rgba(255, 255, 255, 0.877); */
     /* background-color: rgba(255, 255, 255, 0.877); */
 }
 header .menu{
@@ -41,12 +41,13 @@ header .menu{
 }
 header .logo img{
     border-radius: 15%;
-    width: 150px;
+    width: 120px;
 }
 header .menu nav{
     flex: 75%;
     padding: 10px;
 }
+
 header .menu nav a{
     padding: 5px;
     margin-right: 50px;
