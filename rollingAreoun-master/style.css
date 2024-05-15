@@ -20,16 +20,22 @@ video{
 /* -------------------Cabecera------------------- */
 header{
     display: flex;
-    
-    align-items: center;
-    padding: 8px;
-    background-image: url(images/Planes&vistas/Cartagena-.jpeg);
-    /* background-color: rgba(255, 255, 255, 0.877); */
+    text-align: center;
+    justify-content: space-between;
+    padding: 8px 30px;
+    background: url(images/Planes&vistas/Cartagena-.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 header .menu{
-    margin-left: auto;
+    position: relative;
+    display: inline-block;
+    margin: 22px;
 }
 header .logo img{
+    margin-right: 80px;
     border-radius: 15%;
     width: 120px;
 }
@@ -52,9 +58,7 @@ header .menu nav a:last-child {
     border-right: none;
 }
 header .menu nav a:hover{
-    transition: 0.35s;
-    font-size: 2.3rem;
-    color: grey;
+    color:rgb(6, 214, 6);
 }
 /* --------------------------------------------- */
 /* ------------------Main----------------------- */
