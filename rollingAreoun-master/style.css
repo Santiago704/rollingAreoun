@@ -58,7 +58,8 @@ header .menu nav a:last-child {
     border-right: none;
 }
 header .menu nav a:hover{
-    color:rgb(6, 214, 6);
+    color:blue;
+    text-decoration:underline 3px solid #ea601f;
 }
 /* --------------------------------------------- */
 /* ------------------Main----------------------- */
