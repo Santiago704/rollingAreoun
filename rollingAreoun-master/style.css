@@ -66,10 +66,10 @@ header .menu nav a:hover{
 .vid1{
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
     width: 100%;
     overflow: hidden;
 }
-
 
 /* ----------------------------------------------- */
 /* ----------------Texto inicial------------------ */
@@ -88,37 +88,69 @@ header .menu nav a:hover{
 }
 /* ---------------------------------------------- */
 /* ----------------- Iconos -------------------- */
+.parte2{
+    background-color: rgb(245, 245, 231);
+    margin: 0;
+    padding: 30px;
+}
 .iconos{
     margin: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 200px;
+    column-gap: 100px;
 }
 .iconos .ico1, .iconos .ico2, .iconos .ico3{
     width: 300px;
     font-size: 25px;
     text-align: center;
+    background-color: #eeb89f;
+    padding: 20px 20px 4px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
 }
 
 .ico1:hover{
     transition: 0.35s;
     font-size: 1.5rem;
-    color: grey;
+    color: darkblue;
+    background-color: aliceblue;
+    
 }
 
 .ico2:hover{
     transition: 0.35s;
     font-size: 1.5rem;
-    color: grey;
+    color: darkblue;
+    background-color: aliceblue;
 }
 
 .ico3:hover{
     transition: 0.35s;
     font-size: 1.5rem;
-    color: grey;
+    color: darkblue;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
 }
-
+/* ---------------------------------------------- */
+/* ----------------- Textos -------------------- */
+.textos{
+    background-image: url(images/Paisaje\ de\ colombia.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 32px;
+    font-family: 'roboto1';
+}
+.textos .parrafo1, .textos .parrafo2, .textos .parrafo3{
+    background-color: rgba(236, 229, 221, 0.7);
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
 /* --------------------------------------------- */
 @font-face{
     font-family: 'roboto1';
