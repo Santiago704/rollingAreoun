@@ -89,7 +89,6 @@ header .menu nav a:hover{
 /* ---------------------------------------------- */
 /* ----------------- Iconos -------------------- */
 .parte2{
-    background-color: rgb(245, 245, 231);
     margin: 0;
     padding: 30px;
 }
@@ -99,6 +98,7 @@ header .menu nav a:hover{
     justify-content: center;
     align-items: center;
     column-gap: 100px;
+    font-family: 'roboto1';
 }
 .iconos .ico1, .iconos .ico2, .iconos .ico3{
     width: 300px;
@@ -152,6 +152,18 @@ header .menu nav a:hover{
     padding: 30px;
     text-align: center;
     border-radius: 20px;
+}
+/* ---------------------------------------------- */
+/* --------------- Logos aliados ------------------ */
+.logos img{
+    width: 140px;
+}
+.logos{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 80px 30px;
 }
 /* --------------------------------------------- */
 @font-face{
