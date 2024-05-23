@@ -1,0 +1,96 @@
+/* ------------------ General ------------------ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'roboto2';
+    filter: brightness(1);
+}
+
+video{
+    width: 100%;
+    margin: 0px auto;
+}
+/* ---------------------------------------------- */
+/* -------------------Cabecera------------------- */
+header{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 8px 30px;
+    background: url(images/Planes&vistas/Cartagena-.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .menu{
+    position: relative;
+    display: inline-block;
+    margin: 22px;
+}
+header .logo img{
+    margin-right: 80px;
+    border-radius: 15%;
+    width: 120px;
+}
+header .menu nav{
+    flex: 75%;
+    padding: 10px;
+}
+header .menu nav a{
+    padding: 5px;
+    margin-right: 50px;
+    padding-right: 50px;
+    border-right: solid 2px #ea601f;
+    font-family: 'roboto2';
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ea601f;
+}
+header .menu nav a:last-child {
+    margin-right: 0; 
+    border-right: none;
+}
+header .menu nav a:hover{
+    color:blue;
+    text-decoration:underline 3px solid #ea601f;
+}
+/* ----------------------- Formularios ---------------------- */
+form{
+    
+    font-size: 25px;
+    font-family: 'roboto1';
+    border: solid 2px;
+    padding: 10px;
+    margin: 20px;
+    width: 800px;
+    border-radius: 10px;
+    background-color: rgb(160, 226, 243);
+}
+form .parte1 input{
+    height: 30px;
+    width: 775px;
+    border-radius: 7px;
+    align-items: center;
+}
+form h3{
+    text-align: center;
+    font-size: 35px;
+    color: #ea601f;
+    padding: 6px;
+}
+
+/* ------------------------------------------------------- */
+@font-face{
+    font-family: 'roboto1';
+    src: url('fonts/Roboto-Light.ttf');
+}
+@font-face{
+    font-family: 'roboto2';
+    src: url('fonts/Roboto-Bold.ttf');
+}
