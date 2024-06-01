@@ -1,102 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoteles</title>
     <link rel="stylesheet" href="hoteles.css">
-    <title>HOTELES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="images/logo.png" alt="logoEmpresa" name="logoEmpresa">
-        </div>
-        <div class="menu">
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="planes.html">Planes</a>
-                <a href="hoteles.html">Hoteles</a>
-                <a href="#">Contacto</a>
-            </nav>
-        </div>
-    </header>
-    <div class="contenedor">
-        <div class="card">
-            <div class="card-header">
-                <img src="hoteles/Hilton-hotel.png">
-            </div>
-            <div class="card-body">
-                <h2 class="card-title">HILTON</h2>
-                <p class="card-description">
-                    Estamos en el distrito de El Poblado en Medellín, a 1 milla/1,6 km de los restaurantes y la vida nocturna de Zona Rosa. Camine hasta las tiendas en el centro comercial Santa Fe Mall después de las reuniones en el Centro 
-                </p>
-                <a href="https://www.hilton.com/es/locations/colombia/medellin/" class="btn">Ver más</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-                <img src="hoteles/Hotel-Jardin.jpg">
-            </div>
-            <div class="card-body">
-                <h2 class="card-title">JARDIN</h2>
-                <p class="card-description">
-                    Ya sea que estés aquí para explorar los pintorescos paisajes, sumergirte en la cultura local o simplemente relajarte y disfrutar de la serenidad del entorno, en el Hotel Jardín Antioquia encontrarás todo lo que necesitas para una escapada perfecta.
-                <a href="https://hoteljardin.com.co/" class="btn">Ver más</a>
-            </div>
-        </div>
-            
-        <div class="card">
-            <div class="card-header">
-                <img src="hoteles/Casa San Agustín.png">
-            </div>
-            <div class="card-body">
-                <h2 class="card-title">Casa San Agustín</h2>
-                <p class="card-description">
-                    Experimentará un ambiente lujoso y relajado en este auténtico hotel boutique, que fue reimaginado para mantener el patrimonio colonial intacto dentro de tres hermosas casas blancas que lo componen. Sus 20 habitaciones y 11 suites bellamente decoradas 
-                </p>
-                <a href="https://www.hotelcasasanagustin.com/es/home.html" class="btn">Ver más</a>
-            </div>
-        </div>
-        
-        <div class="card">
-            <div class="card-header">
-                <img src="hoteles/grand sirenis san andrés.png">
-            </div>
-            <div class="card-body">
-                <h2 class="card-title">Grand sirenis san andrés</h2>
-                <p class="card-description">
-                    La isla de San Andrés, territorio insular es considerada como la perla escondida en el Mar Caribe colombiano y forma parte de los destinos élite de la gran cuenca del Caribe, entre sus premios y reconocimientos es galardonada como la mejor playa de Sudamérica
-                </p>
-                <a href="https://www.sirenishotels.com/hoteles-san-andres/grand-sirenis-san-andres/" class="btn">Ver más</a>
-            </div>
-        </div>
-        
-        <div class="card">
-            <div class="card-header">
-                <img src="hoteles/la-quinta-hotels9732.jpg">
-            </div>
-            <div class="card-body">
-                <h2 class="card-title">QUINTA</h2>
-                <p class="card-description">
-                    Ya sea que vienes por trabajo o vacaciones a esta histórica ciudad colombiana, disfruta de la gran cantidad de servicios y el trato amigable en La Quinta by Wyndham Medellin. Convenientemente ubicado en la avenida Las Palmas, cerca del centro de la capital de Antioquia, nuestro acogedor hotel está a pocos minutos del Centro
-                </p>
-                <a href="https://www.wyndhamhotels.com/es-xl/laquinta/medellin-colombia/lq-hotel-medellin/overview" class="btn">Ver más</a>
-            </div>
-        </div>
-        
-        <div class="card">
-            <div class="card-header">
-                <img src="hoteles/nh-hotels.jpg">
-            </div>
-            <div class="card-body">
-                <h2 class="card-title">nh-hotels</h2>
-                <p class="card-description">
-                    En los últimos años, esta ciudad se ha convertido en un destino internacional boyante en el que NH Hotels posee uno de sus más lujosos hoteles de cinco estrellas de Medellín. El NH Collection Medellín Royal es una excelente opción 
-                </p>
-                <a href="https://www.nh-hotels.com/co/hoteles/medellin?campid=8435708&gad_source=1&gclid=EAIaIQobChMIrIevzo79hQMVtoVaBR1THgBiEAAYASAAEgIimfD_BwE&gclsrc=aw.ds" class="btn">Ver más</a>
-            </div>
-        </div>
+<header>
+    <div class="logo">
+        <img src="images/logo.png" alt="logoEmpresa" name="logoEmpresa" class="logo">
     </div>
+    <div class="menu">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="planes.html">Planes</a>
+            <a href="hoteles.html">Hoteles</a>
+            <a href="reserva.html">Reserva</a>
+        </nav>
+    </div>
+</header>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-image">
+                <img src="images/Hoteles&Restaurantes/Hote-Hilton.png" alt="Imagen 1">
+            </div>
+            <div class="card-content">
+                <p> Experimentará un ambiente lujoso y relajado en este auténtico hotel boutique, que fue reimaginado para mantener el patrimonio colonial intacto dentro de tres hermosas casas blancas que lo componen. Sus 20 habitaciones y 11 suites bellamente decoradas </p>
+                <a href="https://be.synxis.com/?adult=1&arrive=2024-05-26&chain=24447&child=0&currency=USD&depart=2024-05-27&hotel=7070&level=hotel&locale=es-ES&rooms=1&src=30" class="btn-reservar"><button>Reservar ahora</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="images/Hoteles&Restaurantes/grand sirenis san andrés.png" alt="Imagen 2">
+            </div>
+            <div class="card-content">
+                <p> La isla de San Andrés, territorio insular es considerada como la perla escondida en el Mar Caribe colombiano y forma parte de los destinos élite de la gran cuenca del Caribe, entre sus premios y reconocimientos es galardonada como la mejor playa de Sudamérica</p>
+                <a href="https://bookings.sirenishotels.com/es/bookcore/availability/rooms/gssandres/?rrc=1&adults=2&occupancies=%255B%257B%2522adults%2522%253A%25202%252C%2520%2522children%2522%253A%25200%252C%2520%2522ages%2522%253A%2520%2522%2522%257D%255D&occp=1/" class="btn-reservar"><button>Reservar ahora</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="images/hoteles/nh-hotels.jpg" alt="Imagen 3">
+            </div>
+            <div class="card-content">
+                <p>NH Hotel Group es un operador multinacional consolidado y una de las cadenas hoteleras urbanas de referencia a nivel mundial. Al cierre del</p>
+                <p>ejercicio 2019, el Grupo está presente en 30 países, operando 368 hoteles y 57.466 habitaciones en tres continentes (Europa, América y África).</p>
+                
+    
+                <a href="https://www.nh-hotels.com/co/servicing" class="btn-reservar"><button>Reservar ahora</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="images/hoteles/Hotel-Jardin.jpg" alt="Imagen 4">
+            </div>
+            <div class="card-content">
+                <p class="centrado">Ya sea que estés aquí para explorar los pintorescos paisajes, sumergirte</p>
+                <p>en la cultura local o simplemente relajarte y disfrutar de la serenidad del entorno, en el Hotel Jardín Antioquia encontrarás todo lo que necesitas para una escapada perfecta.</p>
+                <a href="https://hoteljardin.com.co/" class="btn-reservar"><button>Reservar ahora</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="images/hoteles/la-quinta-hotels9732.jpg" alt="Imagen 5">
+            </div>
+            <div class="card-content">
+                <p>Ya sea que vienes por trabajo o vacaciones a esta histórica ciudad colombiana, disfruta de la gran cantidad de servicios y el trato amigable en La Quinta by Wyndham Medellin. Convenientemente ubicado en la avenida Las Palmas, cerca del centro de la capital de Antioquia, nuestro acogedor hotel está a pocos minutos del Centro</p>
+                <a href=https://www.wyndhamhotels.com/es-xl/laquinta class="btn-reservar"><button>Reservar ahora</button></a>
+            </div>
+        </div>
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; rollingAreoun Todos los derechos reservados.</p>
+            <p>Información adicional sobre los hoteles, servicios y términos de uso.</p>
+        </div>
+    </footer>
 </body>
 </html>
