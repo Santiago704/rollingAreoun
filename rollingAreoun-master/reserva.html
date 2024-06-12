@@ -21,19 +21,50 @@
             </nav>
         </div>
     </header>
-    <form action="">
-        <div class="parte1">
-            <h3>Datos personales</h3>
-            <label for="fname">Nombre completo:</label><br>
-            <input type="text" name="name" id="fname"><br><br>
-            <label for="fid">Cedula:</label><br>
-            <input type="number" name="id" id="fid"><br><br>
-            <label for="fphone">Telefono:</label><br>
-            <input type="tel" name="phone" id="fphone" pattern="[0-9]{10}"><br><br>
-            <label for="fmail">Correo:</label><br>
-            <input type="email" name="mail" id="fmail">
-        </div>
-        
+    <h1>Formulario de Reservas</h1>
+    <div class="formulario1">
+    <form action="" method="post">
+        <div class="formInt">
+        <!-- Primero: Datos personales -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="cedula">Cédula:</label>
+        <input type="text" id="cedula" name="cedula" required><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br>
+
+        <!-- Segundo: Selección de hotel y tour -->
+        <label for="hotel">Hotel:</label>
+        <select id="hotel" name="hotel">
+            <option value="Hilton">Hotel Hilton</option>
+            <option value="Sirenis">Grand Sirenis</option>
+            <option value="NH">NH Hoteles</option>
+            <option value="Jardin">Hotel Jardín</option>
+            <option value="Quinta">La Quinta</option>
+        </select><br>
+
+        <label for="tour">Tour:</label>
+        <select id="tour" name="tour">
+            <option value="cafetero">Plan Cafetero</option>
+            <option value="playa">Plan Playa y Mar</option>
+            <option value="city">Plan City Tour</option>
+            <option value="eje">Plan Eje Cafetero</option>
+        </select><br>
+    </div>  
+    <div class="comentarios">
+        <!-- Tercero: Comentarios -->
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br>
+    </div>    
+        <!-- Botones -->
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
     </form>
+    </div>
 </body>
 </html>

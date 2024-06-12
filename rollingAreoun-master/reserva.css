@@ -5,6 +5,7 @@
     padding: 0;
 }
 html{
+    background-image: url(images/imgFondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -61,30 +62,107 @@ header .menu nav a:hover{
     text-decoration:underline 3px solid #ea601f;
 }
 /* ----------------------- Formularios ---------------------- */
-form{
-    
-    font-size: 25px;
-    font-family: 'roboto1';
-    border: solid 2px;
-    padding: 10px;
-    margin: 20px;
-    width: 800px;
-    border-radius: 10px;
-    background-color: rgb(160, 226, 243);
-}
-form .parte1 input{
-    height: 30px;
-    width: 775px;
-    border-radius: 7px;
-    align-items: center;
-}
-form h3{
+h1{
+    color: #cf5318;
+    font-size: 32px;
+    margin: 15px;
     text-align: center;
-    font-size: 35px;
-    color: #ea601f;
-    padding: 6px;
+}
+form{
+    margin: 0 auto;
+}
+body .formulario{
+    font-family: roboto1;
+    background-color: #f4f4f4be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    font-size: 30px;
 }
 
+.formulario1 {
+    width: 60%;
+    max-width: 600px;
+    background-color: #ffffff73;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.formInt label {
+    margin-top: 1em;
+    display: block;
+    color: #2e2e2e;
+    font-size: 22px;
+}
+
+.comentarios{
+    font-size: 22px;
+    color: #2e2e2e;
+    margin-top: 1em;
+}
+
+.formInt input, .formInt select {
+    width: calc(100% - 1em);
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddddddbd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.comentarios textarea {
+    height: 120px;
+    width: 100%;
+}
+
+.formInt input[type="submit"], .formInt input[type="reset"] {
+    width: auto;
+    background-color: #ea601f;
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 3em;
+}
+
+.formInt input[type="submit"]:hover, .formInt input[type="reset"]:hover {
+    background-color: #cf5318;
+}
+
+textarea {
+    resize: vertical;
+}
+/*-------------- Estilos botones ----------------*/
+input[type="submit"],
+input[type="reset"] {
+    background-color: #cf5318;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 200px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #7e320f;
+}
+
+/* Estilos para etiquetas y otros elementos */
+label {
+    font-weight: bold;
+}
 /* ------------------------------------------------------- */
 @font-face{
     font-family: 'roboto1';
