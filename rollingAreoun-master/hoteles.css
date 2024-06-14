@@ -67,7 +67,7 @@ body {
 
 .card-content button {
     padding: 10px 20px;
-    background: #ff6b6b;
+    background: #ea601f;
     color: white;
     border: none;
     border-radius: 5px;
@@ -76,11 +76,11 @@ body {
 }
 
 .card-content button:hover {
-    background: #ff4b4b;
+    background: #ea601f;
 }
 
 footer {
-    background: #ff6b6b;
+    background: #ea601f;
     padding: 20px;
     text-align: center;
     width: 100%;
